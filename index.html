@@ -4,88 +4,182 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Резюме — Роман Висоцький</title>
+  <meta name="description" content="Резюме Романа Висоцького. Фахівець з організації процесів, роботи з людьми та розробки у digital-середовищі." />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <main class="container">
-    <section class="hero">
+    <!-- HERO SECTION -->
+    <header class="hero">
       <h1>Роман Висоцький</h1>
-      <p class="subtitle">
-        Організація процесів · робота з людьми · digital-середовище
-      </p>
+      <p class="subtitle">Організація процесів · робота з людьми · digital-середовище</p>
       <p class="intro">
-        Працюю на стику творчості, системності та технологій. 
-        Маю досвід організації заходів, роботи з контентом, документацією 
-        та швидкого входження в нові цифрові інструменти.
+        Працюю на стику творчості, системності та технологій. Маю досвід організації заходів, роботи з контентом, документацією, а також розробки сайтів та автоматизаційних програм. Швидко адаптуюсь до нових цифрових інструментів і форматів роботи.
       </p>
-    </section>
+      <div class="hero-actions">
+        <a href="resume.pdf" class="btn btn-primary" download>
+          <i data-lucide="file-down"></i>
+          Завантажити PDF
+        </a>
+        <a href="https://t.me/VysotskyiR" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <i data-lucide="send"></i>
+          Зв'язатися
+        </a>
+      </div>
+    </header>
 
-    <section>
-      <h2>Досвід</h2>
-      <ul>
-        <li>
-          <strong>Артист оркестрів / керівник ансамблю</strong><br>
-          Підготовка та проведення публічних заходів, робота з таймінгом, 
-          координація з організаторами та технічними командами.
-        </li>
-        <li>
-          <strong>Викладач, ментор, класний керівник (приватна школа)</strong><br>
-          Організація заходів, комунікація з різними аудиторіями, 
-          робота з документацією та планування процесів.
-        </li>
-      </ul>
-    </section>
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience">
+      <h2>Досвід роботи</h2>
+      <div class="experience-list">
+        
+        <div class="experience-item">
+          <div class="job-title">Розробка та створення сайтів (фріланс / особисті проєкти)</div>
+          <div class="job-meta">Web-розробка / Автоматизація</div>
+          <div class="job-desc">
+            Створення та верстка веб-сайтів з використанням HTML, CSS та JavaScript. Розробка простих програм, скриптів та автоматизаційних рішень на Python. Робота з Git/GitHub для розміщення проєктів та контролю версій.
+          </div>
+        </div>
 
-    <section>
-      <h2>Навички</h2>
-      <div class="skills">
-        <span>Організація процесів</span>
-        <span>Робота з людьми</span>
-        <span>Google Docs / MS Office</span>
-        <span>CRM</span>
-        <span>Adobe Illustrator</span>
-        <span>Adobe Premiere</span>
-        <span>3ds Max</span>
-        <span>AI інструменти</span>
-        <span>HTML / CSS / JS (створення сайтів)</span>
-        <span>C# (базово)</span>
-        <span>Python (базово)</span>
-        <span>Фото та відео (базовий монтаж)</span>
+        <div class="experience-item">
+          <div class="job-title">Артист оркестрів / соліст / керівник ансамблю</div>
+          <div class="job-meta">Публічні заходи / Координація</div>
+          <div class="job-desc">
+            Підготовка та проведення публічних заходів. Координація з організаторами, технічними командами та учасниками. Робота з таймінгами та репетиційними планами. Відповідальність за кінцевий результат у жорстких дедлайнах.
+          </div>
+        </div>
+
+        <div class="experience-item">
+          <div class="job-title">Викладач музики, ментор, класний керівник</div>
+          <div class="job-meta">Приватна школа / Освіта</div>
+          <div class="job-desc">
+            Організація освітніх і позаосвітніх заходів. Планування процесів та робота з документацією. Комунікація з учнями, батьками та адміністрацією школи. Менторська підтримка та структурований підхід до задач.
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <section>
-      <h2>Освіта</h2>
-      <p>
-        <strong>Бакалавр музичного мистецтва</strong><br>
-        Кларнетист, соліст, артист оркестру, диригент, викладач
-      </p>
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+      <h2>Навички</h2>
+      <div class="skills-container">
+        
+        <div class="skills-group">
+          <div class="skills-group-title">Організація та процеси</div>
+          <div class="skills-list">
+            <span class="skill-tag">Планування</span>
+            <span class="skill-tag">Координація</span>
+            <span class="skill-tag">Аналітичне мислення</span>
+            <span class="skill-tag">Уважність до деталей</span>
+            <span class="skill-tag">CRM-системи</span>
+            <span class="skill-tag">Робота в динамічному середовищі</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <div class="skills-group-title">Розробка та технології</div>
+          <div class="skills-list">
+            <span class="skill-tag">HTML / CSS / JS (створення сайтів)</span>
+            <span class="skill-tag">Python (базово)</span>
+            <span class="skill-tag">C# (базово)</span>
+            <span class="skill-tag">Git / GitHub</span>
+            <span class="skill-tag">Google Docs / MS Office</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <div class="skills-group-title">Дизайн, медіа та ШІ</div>
+          <div class="skills-list">
+            <span class="skill-tag">Adobe Premiere (базовий відеомонтаж)</span>
+            <span class="skill-tag">Adobe Illustrator</span>
+            <span class="skill-tag">3ds Max</span>
+            <span class="skill-tag">ШІ-інструменти</span>
+            <span class="skill-tag">Обробка фото / відео</span>
+          </div>
+        </div>
+
+        <div class="skills-group">
+          <div class="skills-group-title">Комунікація</div>
+          <div class="skills-list">
+            <span class="skill-tag">Робота в стресових умовах</span>
+            <span class="skill-tag">Взаємодія з аудиторією</span>
+            <span class="skill-tag">Пояснення складного простими словами</span>
+          </div>
+        </div>
+
+      </div>
     </section>
 
-    <section>
-      <h2>Мови</h2>
-      <ul>
-        <li>Українська — рідна</li>
-        <li>Англійська — A2+ (добре розумію, працюю над розмовною)</li>
-      </ul>
-    </section>
+    <!-- EDUCATION & LANGUAGES -->
+    <div class="grid-two-col">
+      <section id="education">
+        <h2>Освіта</h2>
+        <div class="edu-item">
+          <strong>Бакалавр музичного мистецтва</strong>
+          <p style="font-size: 0.9rem; color: var(--text-secondary); margin-top: 4px;">
+            Кларнетист, соліст, артист оркестру, диригент, викладач
+          </p>
+        </div>
+      </section>
 
-    <section>
+      <section id="languages">
+        <h2>Мови</h2>
+        <ul class="lang-list">
+          <li class="lang-item">
+            <span class="lang-name">Українська</span>
+            <span class="lang-level">Рідна</span>
+          </li>
+          <li class="lang-item">
+            <span class="lang-name">Англійська</span>
+            <span class="lang-level">A2+</span>
+          </li>
+        </ul>
+        <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 10px; line-height: 1.4;">
+          Добре розумію письмову та устну мову, активно працюю над розмовною практикою.
+        </p>
+      </section>
+    </div>
+
+    <!-- CONTACTS SECTION -->
+    <section id="contacts" style="margin-top: 32px;">
       <h2>Контакти</h2>
-     <p>Email:
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vysotskyi.roman.v@gmail.com" target="_blank">
-    vysotskyi.roman.v@gmail.com
-  </a>
-</p>
+      <div class="contact-grid">
+        
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vysotskyi.roman.v@gmail.com" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-icon">
+            <i data-lucide="mail"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">vysotskyi.roman.v@gmail.com</span>
+          </div>
+        </a>
 
-      <p>Telegram: <a href="https://t.me/VysotskyiR">@VysotskyiR</a></p>
+        <a href="https://t.me/VysotskyiR" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-icon">
+            <i data-lucide="send"></i>
+          </div>
+          <div class="contact-info">
+            <span class="contact-label">Telegram</span>
+            <span class="contact-value">@VysotskyiR</span>
+          </div>
+        </a>
+
+      </div>
     </section>
 
+    <!-- FOOTER -->
     <footer>
-      <p>© 2026</p>
+      <p>© 2026 Роман Висоцький. Всі права захищені.</p>
     </footer>
   </main>
 
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
 </body>
 </html>
